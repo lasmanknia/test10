@@ -1,110 +1,70 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Welcum to FriendZone</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
-      <link rel="stylesheet" href="Index_mobile.css">
-    <link rel="stylesheet" href="Index_pc.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
-     <link rel="stylesheet" href="animate.min.css">
-    <link rel="stylesheet" href="animate.css">
-  </head>
-  <body>
-    <header>
-      
-      <div class="Bal">
-        <a href="#" class="logo"><h1> Friend<span>Zone</h1></a>
-        <i class="menu-lol-btn fas fa-bars"></i>
-        <nav class="nav-menu">
-          <a href="#"><i class="fas fa-home home"></i>Home</a>
-          <a href="#"><i class="fas fa-align-left about"></i> About</a>
-          <a href="#"><i class="fas fa-user-circle"></i> Profile</a>
-          <a href="#"><i class="fas fa-headset contact"></i> Contact</a>
-        </nav>
-      </div>
-      
-    </header>
-    
-   <div id="animate" class="anime" data-ride="animation">
-        <div class="nice">
-          <div class="Hi Hello">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h1 class="animate__animated animate__fadeInLeft ">Friend Zone</h1>
-                        <p class="animate__animated animate__lightSpeedInLeft animate__delay-2s">
-                   Just For Fun
-                        </p>
-                        <button type="button"
-                class="animate__animated animate__jackInTheBox animate__delay-2s"><a href="#">Read More</button>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="img-box">
-                            <img src="1.png" alt="" class="pic-one animate__animated animate__zoomIn animate__delay-2s">
-                            <img src="2.png" alt="" class="pic-two animate__animated animate__fadeInLeft animate__delay-3s">
-                            <img src="3.png" alt="" class="pic-three animate__animated animate__fadeInDown animate__delay-3s">
-                            <img src="4.png" alt="" class="pic-four animate__animated animate__fadeInLeft animate__delay-3s">
-                
-                        </div>
-                    </div>
-                </div>
-            </div>
-          </div>
-          
+    <title>FriendsZone</title>
+    <link rel="stylesheet" href="main/css/index_mobile.css">
+    <link rel="stylesheet" href="main/css/index_pc.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+    <style>
+       .menu{
+          background-color: rgba(255, 255, 255, 0.651);
+       }
+       body{
+          background-image: url(main/img/bg3.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+       }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <a href="card.html">Profile</a> 
+        <a style="background-color: azure" href="#">Home</a>
+        <a href="about_us.html">About us</a>
+    </div>
+    <section id="imm">    
+    <a href=""><img class="bg3" src="main/home/3.png"></a>
+    <a href=""><img class="bg2" src="main/home/2.png"></a>
+    <a href=""><img class="bg1" src="main/home/1.png"></a>
+    <a href="cycle.html"><img class="bg4" src="main/home/4.png"></a>   
+    <a href="#mii" class="arrow">&#8595;</a>
+   </section> 
+     <div id="mii" class="ff">
 
-  <footer class="footer">
-  	 <div class="container">
-  	 	<div class="row">
-  	 		<div class="footer-col">
-  	 			<h4>FZ</h4>
-  	 			<ul>
-  	 				<li><a href="#">about us</a></li>
-  	 				<li><a href="#">our services</a></li>
-  	 				<li><a href="#">privacy policy</a></li>
-  	 				
-  	 			</ul>
-  	 		</div>
-  	 		<div class="footer-col">
-  	 			<h4>Menu</h4>
-  	 			<ul>
-  	 				<li><a href="#">Home</a></li>
-  	 				<li><a href="#">Profile</a></li>
-  	 				<li><a href="#">Setting</a></li>
-  	 				<li><a href="#">Contact</a></li>
-  	 	
-  	 			</ul>
-  	 		</div>
-  	 		<div class="footer-col">
-  	 			<h4>Valo asen?</h4>
-  	 			<ul>
-  	 				<li><a href="#">....</a></li>
-  	 				<li><a href="#">....</a></li>
-  	 				<li><a href="#">s</a>.....</li>
-  	 				<li><a href="#">...</a></li>
-  	 			</ul>
-  	 		</div>
-  	 		<div class="footer-col">
-  	 			<h4>follow us</h4>
-  	 			<div class="social-links">
-  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
-  	 				<a href="#"><i class="fab fa-twitter"></i></a>
-  	 				<a href="#"><i class="fab fa-instagram"></i></a>
-  	 				<a href="#"><i class="fab fa-snap-ghost"></i></a>
-  	 			</div>
-  	 		</div>
-  	 	</div>
-  	 </div>
-  </footer>
-    <script type="text/javascript">
-      $(".menu-lol-btn").click(function(){
-        $(this).toggleClass("fa-times");
-        $(".nav-menu").toggleClass("active");
-      });
-    </script>
- 
-  </body>
+         <div data-aos="fade-right" class="box1">
+             <p class="head">Memories of our freinds</p>
+             <p class="para"><a href="">See Them</a> </p>
+        </div>
+         <div data-aos="fade-left" class="box2">
+            <p class="head">Who is your favourate Teacher?</p>
+            <p class="para"><a href="card_teachers.html">See Them</a></p>
+         </div>
+         <div data-aos="fade-right" class="box1">
+            <p class="head">Who leave a message for friends?</p>
+            <p class="para">See Them</p>
+         </div>
+         <div data-aos="fade-left" class="box2">
+            <p class="head">Our journey and tour</p>
+            <p class="para">See Them</p>
+         </div>
+         <div data-aos="fade-right" class="box1">
+            <p class="head">Photo of our school</p>
+            <p class="para">See Them</p>
+         </div>
+         <div data-aos="fade-left" class="box2">
+            <p class="head">Do you want a profile?</p>
+            <p class="para"><a href="https://docs.google.com/forms/d/e/1FAIpQLSddl4hMJXXuU8QU3_OPS1I0yPazDRaJ3Vgrl3bXP6qZrQPXcQ/viewform?usp=sf_link">Sign Up</a></p>
+         </div>
+
+     </div>
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>
+</body>
 </html>

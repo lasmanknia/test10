@@ -1,0 +1,138 @@
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 600px) {
+    body{
+        margin: 0;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    .menu{
+        display: flex;
+        justify-content: flex-end;
+        box-sizing: border-box;
+    }
+    .menu a{
+        padding: 15px;
+        text-decoration: none;
+        margin-left: 20px;
+        color: rgb(0, 0, 0);``
+    }
+    .menu a:hover{
+        background-color: azure;
+    }
+    .ff{
+        margin-top: 100vh;
+    }
+    .head{
+        text-align: center;
+        font-size: 30px;
+    }
+    .arrow{
+        font-size: 60px;
+        position: absolute;
+        margin-top: 78vh;
+        margin-left: 46%;
+        background-color: white;
+        padding: 10px 30px;
+        border-radius: 40px;
+        text-decoration: none;
+    }
+    .arrow:hover{
+        background-color: black;
+        color: white;
+    }
+    .para{
+        font-size: 26px;
+        color: white;
+        background-color: rgb(74, 74, 231);
+        width: 120px;
+        padding: 10px;
+        margin-top: 10vh;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 8px;
+    }
+    .para a{
+        text-decoration: none;
+        color: white;
+    }
+    .box1:hover{
+        background-color: antiquewhite;
+    }
+    .box2:hover{
+        background-color: antiquewhite;
+    }
+    .box1{
+        width: 30%;
+        height: 300px;
+        background-color: rgba(255, 255, 255, 0.562);
+        margin: 30px;
+        float: left;
+        padding: 34px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px ;
+        text-align: justify;
+    }
+    .box2{
+        width: 30%;
+        height: 300px;
+        background-color: rgba(255, 255, 255, 0.562);
+        margin: 30px;
+        float: right;
+        padding: 34px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px ;
+        text-align: justify;
+    }
+    .bg1{
+        width: 80%;
+        position: absolute;
+        margin-top: 40px;
+        margin-left: 11vh;
+    }
+    .bg2{
+        width: 20%;
+        position: absolute;
+        margin-top: 37px;
+        margin-left: 16vh;
+
+        animation: salman;
+        animation-duration: 4s;
+
+    }
+    .bg3{
+        position: absolute;
+        width: 25%;
+        margin-left: 64%;
+        margin-top: 30px;
+
+        animation: aa;
+        animation-duration: 4s;
+    }
+    .bg4{
+        position: absolute;
+        width: 30%;
+        margin-top: 30%;
+        margin-left: 18%;
+
+        animation: bb;
+        animation-duration: 4s;
+    }
+    @keyframes salman {
+        from{
+            width: 10%;
+        }
+    }
+    @keyframes aa {
+        from{
+            margin-top: 10px;
+        }                
+    }
+    @keyframes bb {
+        from{
+            margin-left: 20px;
+        }
+    }
+}
+        
